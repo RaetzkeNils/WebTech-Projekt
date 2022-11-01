@@ -21,7 +21,7 @@ public class PersonRestController {
 
     @GetMapping(path = "/api/v1/person")
     @ResponseStatus(code = HttpStatus.OK)
-    public List<Person> fetchPerson() {
-        return person;
+    public ResponseEntity<List<Person>> fetchPerson() {
+        return ResponseEntity.ok(person);
     }
 }
