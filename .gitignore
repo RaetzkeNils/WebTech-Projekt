@@ -37,3 +37,7 @@ out/
 .vscode/
 
 .DS_Store
+
+### H2 ###
+*.mv.db
+*.trace.db
