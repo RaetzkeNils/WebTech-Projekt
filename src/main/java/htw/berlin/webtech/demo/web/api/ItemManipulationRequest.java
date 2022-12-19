@@ -10,6 +10,8 @@ public class ItemManipulationRequest {
         this.menge = menge;
     }
 
+    public ItemManipulationRequest() {}
+
     public String getProdukt() {
         return produkt;
     }
